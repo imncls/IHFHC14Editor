@@ -1,0 +1,29 @@
+# Windows version information of IHFHCEditor.exe (PyInstaller --version-file).
+# Keep the numbers equal to app.__version__ (tests/test_version.py checks it).
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3F,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0),
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable('040904B0', [
+        StringStruct('CompanyName', 'imncls'),
+        StringStruct('FileDescription', 'IHF Handball Challenge 14 Editor (unofficial)'),
+        StringStruct('FileVersion', '1.0.0'),
+        StringStruct('InternalName', 'IHFHCEditor'),
+        StringStruct('LegalCopyright', 'Copyright (c) 2026 imncls. MIT License.'),
+        StringStruct('OriginalFilename', 'IHFHCEditor.exe'),
+        StringStruct('ProductName', 'IHF Handball Challenge 14 Editor'),
+        StringStruct('ProductVersion', '1.0.0'),
+      ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])]),
+  ],
+)

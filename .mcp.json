@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ihfhc14": {
+      "type": "stdio",
+      "command": ".venv-mcp/Scripts/python.exe",
+      "args": ["tools/mcp_server.py"]
+    }
+  }
+}

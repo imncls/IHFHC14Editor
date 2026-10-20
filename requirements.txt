@@ -1,0 +1,4 @@
+# Runtime dependencies. Everything else is the standard library
+# (sqlite3, tkinter, ctypes, logging, pathlib, dataclasses).
+# Pillow: decoding, cropping and resizing player portraits.
+pillow==12.3.0

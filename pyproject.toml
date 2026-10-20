@@ -1,0 +1,20 @@
+[project]
+name = "ihfhc-editor"
+version = "1.0.0"
+description = "Player editor for IHF Handball Challenge 14"
+requires-python = ">=3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+    "game_dll: needs the real game DLL and key; skipped when they are not available",
+]

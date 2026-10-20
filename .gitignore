@@ -1,0 +1,31 @@
+# Secrets and local configuration
+config.local.json
+.claude/settings.local.json
+
+# Python environment and caches
+.venv/
+.venv-mcp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+
+# App working and backup folders
+work/
+backups/
+
+# Game databases and save files
+*.db
+*.db-journal
+handball.challenge.metadata.dump.*
+hc.metadata.stats.dump.*
+
+# Extracted game resources (never redistributed)
+extracted/
+
+# Local Claude Code skills
+.claude/skills/
